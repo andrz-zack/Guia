@@ -25,6 +25,13 @@
     color: #fff;
     padding: 2rem;
 }
+.columna:first-of-type {
+    border-radius: 1rem 0 0 1rem;
+}
+
+.columna:last-of-type {
+    border-radius: 0 1rem 1rem 0;
+}
 
  /* columna */
  .personaje {
@@ -35,4 +42,34 @@
  }
 .ciudad {
     background-color: hsl(179, 95%, 15%);
+}
+
+.titulo {
+    text-transform: uppercase;
+}
+
+.texto {
+    font-size: 14px;
+}
+
+.enlace {
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: .5rem 1rem;
+    font-size: 12px;
+
+}
+.personaje .enlace {
+    color: hsl(31, 77%, 52%);
+    font-weight: bold;
+}
+
+.simbolo .enlace {
+    color:hsl(209, 84%, 32%);
+    font-weight: bold;
+}
+.ciudad .enlace {
+    color:hsl(179, 95%, 15%);
+    font-weight: bold;
 }
