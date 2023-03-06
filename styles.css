@@ -24,7 +24,14 @@
 .columna {
     color: #fff;
     padding: 2rem;
+    width: 20%;
+    overflow: hidden;
+    transition: width .3s ease-in-out;
 }
+.columna.activa {
+    width: 50%;
+}
+
 .columna:first-of-type {
     border-radius: 1rem 0 0 1rem;
 }
@@ -50,6 +57,7 @@
 
 .texto {
     font-size: 14px;
+    margin-bottom: 4rem;
 }
 
 .enlace {
@@ -73,3 +81,4 @@
     color:hsl(179, 95%, 15%);
     font-weight: bold;
 }
+
