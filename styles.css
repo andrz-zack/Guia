@@ -16,6 +16,23 @@
  }
 
  /* principal */
-
+.principal {
+    display: flex;
+    max-width: 768px;
+    min-height: 320px;
+}
+.columna {
+    color: #fff;
+    padding: 2rem;
+}
 
  /* columna */
+ .personaje {
+    background-color: hsl(31, 77%, 52%);
+ }
+ .simbolo {
+    background-color: hsl(209, 84%, 32%);
+ }
+.ciudad {
+    background-color: hsl(179, 95%, 15%);
+}
