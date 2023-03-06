@@ -7,3 +7,15 @@
     margin: 0;
     padding: 0;
  }
+ body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(192, 192, 192);
+ }
+
+ /* principal */
+
+
+ /* columna */
